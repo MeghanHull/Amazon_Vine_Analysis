@@ -9,10 +9,12 @@ The client SellBy participates in Amazon's Vine Program[^1], which is an invite-
 The purpose of this project is to determine if there is any bias toward favorable reviews from Vine members in the Amazon Video Games dataset.
 
 ## Resources
-### Data Sources
+### Data Sources & Bespoke Code
 1. [Amazon Video Game Reviews](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz) [^2]
+2. [Amazon_Reviews_ETL.ipynb](Amazon_Reviews_ETL.ipynb) [^3]
 
 [^2]: "Amazon Review Data Sets". [https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt).  
+[^3]: Google CoLab Notebook
 
 ### Software & CDNs
 ***Table 1: Software & Library Versions***
@@ -20,6 +22,7 @@ The purpose of this project is to determine if there is any bias toward favorabl
 | :--- | :---: |
 | pgAdmin | 6.8 |
 | PostgreSQL | 11.16 |
+| PostgreSQL JDBC | 4.2 / 42.2.16 |
 | Python | 3.7.13 |
 | Spark | 3.3.0 |
 | Visual Studio Code | 1.70.2 |
